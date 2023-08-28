@@ -1,0 +1,10 @@
+display: flex;
+width: 314px;
+height: 45px;
+flex-direction: column;
+justify-content: center;
+flex-shrink: 0;
+
+width: 1108px;
+height: 89px;
+flex-shrink: 0;
