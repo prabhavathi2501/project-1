@@ -8,9 +8,74 @@
   box-sizing: border-box;
 }
 body {
-    margin: 0;
+    margin: 0 ;
     font-family: "Poppins", sans-serif;
   }
+  #main{
+    height: auto;
+    width: 100%;
+
+  }
+  #main1{width:100%; height:auto; position: relative;}
+header{width:100%; height:auto; position:absolute; top:0;}  
+#header-wrapper{width:100%; max-width:1134px; margin: 0 auto; height: auto;}
+#logo{float:left; width:20% }
+#logo a{font:40px "peralte",sans-serif; text-decoration:none; color:#000;}
+#menu-links{float:left; width:60%;}
+#menu-links ul{list-style-type:none;  }
+#menu-links ul li{display: inline-block;}
+#menu-links ul li{padding: 10px 20px;}
+#menu-links ul li a{font:22px "peralte",sans-serif; text-decoration:none; color:#000;}
+#head-buttons{float:letf;width:98%;}
+#head-buttons ul{list-style-type:none;}
+#head-buttons ul li{display: inline-block; padding: 30px 25px}
+#head-buttens ul li a{font:45px "peralte",sans-serif; text-decoration:none; color:#000;}
+
+#hero section{
+  width:100%; height:auto; position:absolute; top:0;}
+#hero section h5{
+  color: #4B40C5;
+font-family: Poppins;
+font-size: 40px;
+font-weight: 700;
+line-height: 118.381px; /* 246.627% */
+letter-spacing: -1.92px;
+}
+#hero section  left h6{
+  width: 757px;
+height: 47px;
+flex-shrink: 0;
+color: #FFF;
+font-family: Poppins;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+float:top;
+}
+.content1{top: 310px;
+  color: #FFF;
+font-family: Poppins;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+  position: absolute;
+}
+.content{top:320px;
+  position: absolute;
+color: #4B40C5;
+font-family: Poppins;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 118.381px; /* 246.627% */
+letter-spacing: -1.92px;
+}
+
+
   .wrapper {
     max-width: 1134px;
     margin: 0 ;
@@ -22,7 +87,7 @@ body {
   color: #fff;
   font-size: 10px;
   text-decoration: none;
-  position: relative;
+  
   background-color: #EC682C;
   display: flex;  
   }
@@ -37,10 +102,10 @@ body {
   
   background-color: #EC682C;  
   }
-  .btn3{
+  .btn3{top: 350px
  display: inline-block;  
  padding: 14px; 
-
+position:absolute;
 text-decoration: none;
 border-radius: 18px;
 background: #4B40C5;
@@ -177,24 +242,58 @@ border-radius: 39.90364456176758px 0px 13.301215171813965px 0px
 font-size: 20px;
 line-height: 35px;
 }
-.des{
-  text-align: center;
-
-font-size: 50px;
+.main-Destionations{
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
 }
-.london{
-  text-align: center;
+.Destinations-inner{
+  width: 100%;
+  height: auto;
+  max-width: 1200px;
+  margin: 0 auto;
 }
-.Europ{
-  text-align: end;
+.Destionation-inner h5{
+  font: 700 20px "peralte",sans-serif;
+  color: #333;
+  text-align: center;
+  margin: 0%;
   
 }
-.section3{
-  width: 1338px
-height: 605px
-top: 2791px
-left: 38.5972900390625px
-
+.Destionation-inner h2{
+font:700 44px "peralte",sans-serif;
+color:#333;
+text-align: center;
+margin: 0;
+padding: 26px 0;
+}
+.Destinations-box{
+  float:left;width: 33%;
+  margin: 0;
+}
+.Destinations-img img{
+  width: 100%;
+  margin: 10px 0;
+  
+}
+.Destinations-box p{
+  font:14px "peralta",sans-serif;
+  color:#333;
+  padding: 0 30px;
+  margin: 0;
+}
+.Destinations-box p span{
+float:right;
+}
+.Destinations-box h6{
+  font: 14px, "peralta",sans-serif;
+  color: #333;
+  padding: 14px 23px; 
+  margin: 0;
+}
+.Desitinattion-box h6 img{
+  width: 15px;
 }
 .fast{
   font-size: 15px;
@@ -253,4 +352,16 @@ border-radius: 13.301215171813965px
 .sub{
   text-align: center;
   text-decoration: none;
+}
+.section5{
+  width: 1350.493px;
+height: 484.792px;
+
+border-radius: 26.602px 171.586px 26.602px 26.602px;
+
+background: var(--light-color, #DFD7F9);
+}
+.move{
+  position: relative;
+  
 }
